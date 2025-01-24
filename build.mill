@@ -1,0 +1,18 @@
+package build
+import mill._, kotlinlib._, kotlinlib.js._
+
+trait Kotlin20Module extends KotlinModule {
+  def kotlinVersion = "2.0.21"
+}
+
+trait Kotlin21Module extends KotlinModule {
+  def kotlinVersion = "2.1.0"
+}
+
+object k20 extends Kotlin20Module {
+
+}
+
+object k21 extends Kotlin21Module {
+
+}
